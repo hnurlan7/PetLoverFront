@@ -1,0 +1,30 @@
+.button-primary {
+    font-size: 2rem;
+    padding: .8rem 1.5rem;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--light);
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        background-color: var(--darkprimary);
+        border: 1px solid var(--darkprimary);
+        color: var(--light);
+        transition: all .1s ease-in-out;
+    }
+}
+.button-success {
+    font-size: 2rem;
+    padding: .8rem 1.5rem;
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+    color: var(--dark);
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        background-color: var(--success) ;
+        border: 1px solid var(--success);
+        color: var(--light);
+        transition: all .1s ease-in-out;
+    }
+}

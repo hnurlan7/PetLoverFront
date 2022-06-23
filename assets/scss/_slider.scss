@@ -1,0 +1,39 @@
+#slider {
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            padding: 2rem !important;
+            background-color: var(--primary) !important;
+            border-radius: 4px;
+        }
+        .carousel-item {
+            img {
+                position: relative;
+                filter: brightness(70%);
+            }
+            .slider-content {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+                .slider-sub {
+                    font-size: 2.8rem;
+                    margin-bottom: 1.6rem;
+                    color: var(--light);
+                    font-weight: 700;
+                }
+                .slider-title {
+                    font-size: 7.2rem;
+                    color: var(--light);
+                    margin-bottom: 1.6rem;
+                    font-weight: 700;
+                }
+                .slider-desc {
+                    font-size: 2rem;
+                    color: var(--light);
+                }
+                .slider-btn {
+                    margin-top: 2.4rem;
+                }
+            }
+        }
+}
